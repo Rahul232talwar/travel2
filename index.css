@@ -1,0 +1,667 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.headerblock
+{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerblock .para
+{
+    width: 250px;
+}
+
+.headerblock .iconheader
+{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* navigation bar */
+
+.main-nav
+{
+    background-color: rgba(255, 249, 249, 0.767);
+    height: 65px;
+}
+
+
+.main-nav .sub-nav
+{ 
+    height: 65px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.main-nav .sub-nav .logo
+{
+    height: 65px;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.main-nav .sub-nav .logo img
+{
+    height: 65px;
+    width: 65px;
+}
+
+.main-nav .sub-nav .navigator
+{
+    height: 65px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.main-nav .sub-nav .navigator a
+{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+.main-nav .sub-nav .navigator a:hover
+{
+    color: rgb(183, 235, 131);
+    text-decoration: underline;
+}
+
+.main-nav .sub-nav .sign
+{
+    height: 65px;
+    width: 10%;
+    font-size: x-large;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-nav .sub-nav .sign a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav .sub-nav .sign a:hover{
+    color: greenyellow;
+    text-decoration: underline; 
+}
+
+
+.main-nav .sub-nav .contact
+{
+    height: 65px;
+    width: 10%;
+    font-size: x-large;
+    font-style: italic;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.drop
+{
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    padding-left: 6px;
+}
+
+.contact:hover>.drop
+{
+    position: absolute;
+    height: auto;
+    display: block;
+    top: 100px;
+    z-index: 1;
+    color: white;
+    background-color: black;
+}
+
+
+.explore{
+    position: relative;
+    top: 30px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.explore h3, .explore span{
+    padding-left: 110px;
+    margin: 0;
+}
+
+.explore1{
+    height: 190px;
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: beige; */
+    
+}
+.explore1 a{
+    display: flex;
+    text-decoration: none;
+}
+
+.delhiimg{
+    box-shadow: 3px 4px 15px black;
+}
+
+.new{
+    position: absolute;
+    top: 65px;
+    left: 180px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(223, 136, 136);
+    box-shadow: 3px 4px 190px black;
+}
+
+.bangloreimg{
+    position: relative;
+    left: 20px;
+    box-shadow: 5px 5px 15px black;
+    /* background-color: aqua; */
+}
+
+.bang{
+    height: 25px;
+    width: 110px;
+    position: relative;
+    top: 10px;
+    left: -250px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(223, 136, 136);
+    box-shadow: 3px 4px 190px black;
+}
+
+.mumbaiimg{
+    position: relative;
+    left: -70px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.mumbai{
+    height: 25px;
+    position: relative;
+    top: 10px;
+    left: -350px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(223, 136, 136);
+    box-shadow: 3px 4px 150px black;
+}
+
+
+.chennaiimg{
+    position: relative;
+    left: -135px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.chennai{
+    height: 25px;
+    position: relative;
+    top: 10px;
+    left: -400px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(223, 136, 136);
+    box-shadow: 3px 4px 150px black;
+}
+
+.explore2{
+    position: relative;
+    top: 20px;
+    height: 190px;
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px ;
+    /* background-color: aqua; */
+}
+.content{
+    height: 190px;
+    width: 1220px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.content div{
+    height: 135px;
+    width: 170px;
+    /* background-color: antiquewhite; */
+    box-shadow: 5px 5px 15px black;
+    border-radius: 20px;
+}
+
+.goa:hover{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform:scale(1.07);
+}
+
+.goa img{
+    /* padding-left: 38px; */
+    border-radius: 20px;
+}
+
+.goa span{
+    color: rgb(223, 136, 136);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -40px
+}
+
+.jaipur:hover{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform:scale(1.07);
+}
+
+.jaipur img{
+    border-radius: 20px;
+}
+
+.jaipur span{
+    color: rgb(223, 136, 136);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -50px
+}
+
+.rishikesh:hover{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform:scale(1.07);
+}
+
+.rishikesh img{
+    border-radius: 20px;
+}
+
+.rishikesh span{
+    color: rgb(223, 136, 136);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -65px
+}
+
+.ooty:hover{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform:scale(1.07);
+}
+
+.ooty img{
+    border-radius: 20px;
+}
+
+.ooty span{
+    color: rgb(223, 136, 136);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -45px
+}
+
+
+
+.services{
+    position: relative;
+    background-color: rgb(197, 180, 180);
+    color: antiquewhite;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-left: 110px;
+    text-decoration: underline;
+}
+
+
+.cardblock{
+    background-color: white;
+    color: antiquewhite;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.car, .bus, .plane{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 400px;
+    box-shadow: 8px 8px 15px black;
+    animation-name: transport;
+    background-color: rgb(197, 180, 180);
+}
+
+.car:hover, .bus:hover, .plane:hover{
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transform:scale(1.05);
+}
+
+.car>h1, .bus>h1, .plane>h1{
+    padding-top: 5px;
+    padding-left: 35px;
+    color: rgb(129, 99, 58);
+    /* font-style: oblique; */
+}
+
+.car>p, .bus>p, .plane>p{
+    padding-left: 35px;
+}
+
+.car>button, .bus>button, .plane>button{
+    margin-left: 100px; 
+    height: 40px;
+    width: 100px; 
+    color: rgb(233, 149, 32);
+    background-color: rgb(219, 203, 109);
+    border: none;
+    box-shadow: 6px 6px 8px rgb(236, 225, 163);
+    border-radius: 5px;
+}
+
+#carfrom{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 120%;
+    display: none;
+}
+
+.c-data{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 17px;
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+
+.c-data img{
+    border-radius: 17px ;
+}
+
+
+.c-data h4{
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+
+.cform{
+    position:absolute;
+    top: 80px;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207, 186, 158);
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+
+
+#busfrom{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 120%;
+    display: none;
+}
+.b-data{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 17px;
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+.b-data img{
+    border-radius: 17px ;
+}
+.b-data h4{
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+}
+.bform{
+    position:absolute;
+    top: 80px;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207, 186, 158);
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+
+
+#airplanefrom{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 120%;
+    display: none;
+}
+.a-data{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 17px;
+    position: relative;
+    top: 25%;
+    margin: 0 auto;
+    display: flex;
+}
+.a-data img{
+    border-radius: 17px ;
+}
+
+.a-data h4{
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+}
+.aform{
+    position:absolute;
+    top: 80px;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207, 186, 158);
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+footer{
+    margin: 0;
+    /* background-color: rgb(104, 103, 103); */
+}
+.container{
+    position: relative;
+    top: 20px;
+    height: 430px;
+    /* background-color: rgb(224, 224, 224); */
+}
+
+.row1{
+    height: 280px;
+    display: flex;
+    /* background-color: rgb(186, 224, 224); */
+}
+
+.state{
+    width: 50%;
+    /* background-color: beige; */
+}
+
+.state h5{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: rgb(231, 208, 208);
+}
+
+.s-list ul{
+    height: 100%;
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+.s-list ul li{
+    padding-bottom: 10px;
+    justify-content: space-around;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.s-list ul li a{
+    text-decoration: none;
+    color: rgb(231, 208, 208);
+}
+
+
+
+.ut{
+    width: 25%;
+    /* background-color: rgb(216, 216, 49); */
+}
+
+.ut h5{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: rgb(231, 208, 208);
+}
+
+.ut-list ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+.ut-list ul li{
+    padding-bottom: 5px;
+    /* justify-content: space-around; */
+    /* display: inline-block; */
+}
+
+.ut-list ul li a{
+    text-decoration: none;
+    color: rgb(231, 208, 208);
+}
+
+
+.contact2{
+    width: 25%;
+    padding-left: 40px
+    /* background-color: aqua; */
+}
+
+.contact2 h5{
+    padding-bottom: 10px;
+    color: rgb(231, 208, 208);
+}
+
+.contact2 p{
+    color: rgb(231, 208, 208);
+}
+
+
+
+
+/* feedback form */
+
+#feedbackform{
+    position: absolute;
+    top: 105px;
+    width: 100%;
+    height: 650px;
+    background-color: rgba(153, 145, 145, 0.7);
+    display: none;
+}
+
+#feedbackform .fform{
+    position: relative;
+    top: 50px;
+    height: 500px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: rgb(201, 183, 183);
+    border-radius: 10px;
+}
+
+#feedbackform .fform h2{
+    text-align: center;
+}
+
+.input{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    height: 380px;
+    width: 300px;
+    /* background-color: aqua; */
+}
+
+.input form label,.input form input{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+
+.input form input{
+    height: 40px;
+    width: 300px;
+}
+
+#submit1{
+    height: 40px;
+    width: 80px;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    box-shadow: 3px 4px 8px rgb(44, 42, 42);
+    background-color: rgb(201, 163, 163);
+    border: 2px solid black;
+}
