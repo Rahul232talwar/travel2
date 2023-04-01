@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel here</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <header class="headerblock">
+        <p class="para">
+            <i>TRAVEL</i>
+            <i class="fa-solid fa-plane-departure"></i>
+        </p>
+        <div class="iconheader">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </header>
+
+    <!-- navigation bar -->
+
+    <nav class="main-nav">
+        <section class="sub-nav">
+            <div class="logo">
+                <img src="./travo/img/logo1.png" alt="">
+            </div>
+            <div class="navigator">
+                <a href="home">
+                    HOME
+                </a>
+                <a href="./packages.html">
+                    PACKAGES
+                </a>
+                <a href="#">
+                    SERVICES
+                </a>
+                <a onclick="feedback()" href="#" >
+                    FEEDBACK
+                </a>
+            </div>
+            <div class="sign">
+                <a href="">
+                    SIGN UP
+                </a>
+            </div>
+            <div class="contact">
+                CONTACT
+                <section class="drop">
+                    <p>
+                        +91 1234567890 <br>
+                        +91 6234456567
+                    </p>
+                </section>
+            </div>
+            <section class="drop">
+                <p>+91 1234567890 <br>+91 6234456567</p>
+            </section>
+        </section>
+    </nav>
+
+    <!-- slider -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./travo/img/aircraft-1362586__340.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="./travo/img/airport-1822133__340.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="./travo/img/traffic-3612474__340.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="./travo/img/flight-4516478__340.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+      
+    <div class="explore">
+        <h3>Explore India</h3>
+        <span>These popular destinations have a lot to offer</span>
+        <div class="explore1">
+            <a href="New_Delhi">
+                <div class="delhiimg">
+                    <picture>
+                        <img src="https://cf.bstatic.com/xdata/images/city/600x600/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" 
+                        alt="New Delhi" height="190px" width="300px">
+                    </picture>
+                </div>
+                <div class="new">NEW DELHI</div>
+            </a>
+            <a href="Banglore">
+                <div class="bangloreimg">
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=" 
+                    alt="banglore" height="190px" width="300px">
+                </div>
+                <div class="bang">BANGLORE</div>
+            </a>
+            <a href="mumbai">
+                <div class="mumbaiimg">
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=" 
+                    alt="mumbai" height="190px" width="300px">
+                </div>
+                <div class="mumbai">
+                    MUMBAI
+                </div>
+            </a>
+            <a href="chennai">
+                <div class="chennaiimg">
+                    <img src="https://cf.bstatic.com/xdata/images/city/600x600/684730.jpg?k=e37b93d88c1fe12e827f10c9d6909a1def7349be2c68df5de885deaa4bc01ee3&o=" 
+                    alt="chennai" height="190px" width="300px">
+                </div>
+                <div class="chennai">
+                    CHENNAI
+                </div>
+            </a>
+        </div>
+        <div class="explore2">
+            <div class="content">
+                <div class="goa">
+                    <img src="https://r-xx.bstatic.com/xdata/images/region/170x136/49646.jpg?k=b7f38878b9164ee38e0b99c4d4646dbea76b7bf4add8464b1aa75e4c9d0efc6e&o=" 
+                    alt="goa">
+                    <span>Goa</span>
+                </div>
+                <div class="jaipur">
+                    <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/684657.jpg?k=66dc5035b43e9bb86b756e381e4fec2558064af4a63a8af17836725a854c03ee&o=" 
+                    alt="jaipur">
+                    <span>Jaipur</span>
+                </div>
+                <div class="rishikesh">
+                    <img src="https://r-xx.bstatic.com/xdata/images/city/170x136/684880.jpg?k=e39b50ba8be4c6c6c413c963af6e0d452dbe0decaf72e13f9f798e65de549107&o=" 
+                    alt="jaipur">
+                    <span>Rishikesh</span>
+                </div>
+                <div class="ooty">
+                    <img src="https://q-xx.bstatic.com/xdata/images/city/170x136/684919.jpg?k=0a73fce29109503c055e288c413d9a1c5bd66fdb26f01c1438e8017b0b64b42f&o=" 
+                    alt="ooty">
+                    <span>Ooty</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <h1 class="services">OUR SERVICES</h1>
+    <section class="cardblock"> 
+        <div class="car">
+            <img src="./travo/img/traffic-3612474__340.jpg" alt="" height="200px" width="300px">
+            <h1>CAR TRANSPORT</h1>
+            <p>@30% offer</p>
+            <button id="bookcar" onclick="bookcar()">BOOK NOW</button>
+        </div>
+        <div class="bus">
+            <img src="./travo/img/flight-4516478__340.jpg" alt="" height="200px" width="300px">
+            <h1>BUS TRANSPORT</h1>
+            <p>@50% offer</p>
+            <button id="bookbus" onclick="bookbus()">BOOK NOW</button>
+        </div>
+        <div class="plane">
+            <img src="./travo/img/aircraft-1362586__340.jpg" alt="" height="200px" width="300px">
+            <h1>AIRPLANE TRANSPORT</h1>
+            <p>@60% offer</p>
+            <button id="bookplane" onclick="bookairplane()">BOOK NOW</button>
+        </div>
+    </section>
+   
+
+    <div id="carfrom">
+        <div class="c-data">
+            <img src="./travo/img/logo1.png" alt="travo" height="70px">
+            <h4>Book Your Car</h4>
+            <div class="cform">
+                <form id="cdata">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="from" style="margin-left: -35px;">Travel from</label>
+                    <input type="text" id="from" name="travel-from" required><br><br>
+
+                    <label for="to" style="margin-left: -20px;">Travel To</label>
+                    <input type="text" id="to" name="travel-to" required><br><br>
+
+                    <label for="distance" style="margin-left: -20px;">Distance</label>
+                    <input type="text" id="distance" name="distance" required>(in Kms)<br><br>
+
+                    <input type="submit" style="margin-left: 80px;">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="busfrom">
+        <div class="b-data">
+            <img src="./travo/img/logo1.png" alt="travo" height="70px">
+            <h4>Book Your Bus</h4>
+            <div class="bform">
+                <form id="bdata">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="from" style="margin-left: -35px;">Travel from</label>
+                    <input type="text" id="from" name="travel-from"><br><br>
+
+                    <label for="to" style="margin-left: -20px;">Travel To</label>
+                    <input type="text" id="to" name="travel-to"><br><br>
+
+                    <label for="distance" style="margin-left: -20px;">Distance</label>
+                    <input type="text" id="distance" name="distance">(in Kms)<br><br>
+
+                    <input type="submit" style="margin-left: 80px;">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="airplanefrom">
+        <div class="a-data">
+            <img src="./travo/img/logo1.png" alt="travo" height="70px">
+            <h4>Book Your Airplane</h4>
+            <div class="aform">
+                <form id="adata">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="from" style="margin-left: -35px;">Travel from</label>
+                    <input type="text" id="from" name="travel-from"><br><br>
+
+                    <label for="to" style="margin-left: -20px;">Travel To</label>
+                    <input type="text" id="to" name="travel-to"><br><br>
+
+                    <label for="distance" style="margin-left: -20px;">Distance</label>
+                    <input type="text" id="distance" name="distance">(in Kms)<br><br>
+
+                    <input type="submit" style="margin-left: 80px;">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="feedbackform">
+        <div class="fform">
+            <h2>Feedback Form</h2>
+            <div class="input">
+                <form id="feedback">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name" style="text-indent: 20px;" required>
+
+                    <label for="email">Email :</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Email" style="text-indent: 20px;" required>
+
+                    <label for="date">Date :</label>
+                    <input type="date" name="date" id="date" style="text-indent: 10px;" required>
+
+                    <label for="location">Messege :</label>
+                    <input type="text-area" name="messege" id="location" placeholder="Enter Messege" style="text-indent: 20px;" required>
+
+                    <input type="submit" id="submit1">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    <footer style="background-color: rgba(173, 155, 156, 0.925);">
+        <div class="container" >
+            <div>
+                <div class="row1">
+                    <div class="state">
+                        <h5>Travel-State Website</h5>
+                        <div class="s-list">
+                            <ul>
+                                <li>
+                                    <a href="">North East</a>
+                                </li>
+                                <li>
+                                    <a href="">Himachal Pradesh</a>
+                                </li>
+                                <li>
+                                    <a href="">Utterakhand</a>
+                                </li>
+                                <li>
+                                    <a href="">Harayana</a>
+                                </li>
+                                <li>
+                                    <a href="">Punjab</a>
+                                </li>
+                                <li>
+                                    <a href="">Rajsthan</a>
+                                </li>
+                                <li>
+                                    <a href="">Gujrat</a>
+                                </li>
+                                <li>
+                                    <a href="">Utter Pradesh</a>
+                                </li>
+                                <li>
+                                    <a href="">Bihar</a>
+                                </li>
+                                <li>
+                                    <a href="">Jharkhand</a>
+                                </li>
+                                <li>
+                                    <a href="">West Bengal</a>
+                                </li>
+                                <li>
+                                    <a href="">Odisha</a>
+                                </li>
+                                <li>
+                                    <a href="">Chhattisgarh</a>
+                                </li>
+                                <li>
+                                    <a href="">Madhya Pradesh</a>
+                                </li>
+                                <li>
+                                    <a href="">Maharashtra</a>
+                                </li>
+                                <li>
+                                    <a href="">Goa</a>
+                                </li>
+                                <li>
+                                    <a href="">Karnataka</a>
+                                </li>
+                                <li>
+                                    <a href="">Andhra Pradesh</a>
+                                </li>
+                                <li>
+                                    <a href="">Tamil Nadu</a>
+                                </li>
+                                <li>
+                                    <a href="">Kerala</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ut">
+                        <h5>Travel-UT Website</h5>
+                        <div class="ut-list">
+                            <ul>
+                                <li>
+                                    <a href="">Jammu and Kashmir</a>
+                                </li>
+                                <li>
+                                    <a href="">Ladakh</a>
+                                </li>
+                                <li>
+                                    <a href="">Chandigarh</a>
+                                </li>
+                                <li>
+                                    <a href="">Andaman and Nicobar</a>
+                                </li>
+                                <li>
+                                    <a href="">Lakshdweep</a>
+                                </li>
+                                <li>
+                                    <a href="">Dadar nagar Haveli and Daman and div</a>
+                                </li>
+                                <li>
+                                    <a href="">Delhi</a>
+                                </li>
+                                <li>
+                                    <a href="">Puducherry</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact2">
+                        <h5>Contact Details</h5>
+                        <p>Deputy Secretary (IT) <br>
+                            Ministry of Tourism, <br>
+                            Transport Bhawan <br>
+                            Sansad Marg, <br>
+                            New Delhi <br>
+                            ☏ &nbsp; 
+                            <a href="">+91-011 23724154</a><br>
+                            ✉ &nbsp; 
+                            <a href="">info.mot@gov.in</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
+
