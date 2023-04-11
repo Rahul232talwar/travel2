@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Car</title>
+    <link rel="stylesheet" href="./car.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="para" style="display: flex;">
+                TRAVEL
+                <i class="fa-solid fa-plane-departure"></i>
+            </div>
+            <div class="social" style="display: flex;">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="first">
+        <div class="container">
+            <div class="service">
+                <h1>Services Offered By Us!</h1>
+                <div class="list">
+                    <ul>
+                        <li>
+                            Clean Sanitized Cars Before Each Trip.
+                        </li>
+                        <li>
+                            Door Pickup & Drop Service.
+                        </li>
+                        <li>
+                            GPS Tracking, Panic Button, Speed Limit In All Cars.
+                        </li>
+                        <li>
+                            Very Experienced Drivers, Delivering Service From Last 15 Years.
+                        </li>
+                        <li>
+                            No Upfront Payments. Payment After The Trip.
+                        </li>
+                    </ul>
+                </div>
+                <a href="#second">
+                    <button class="select">
+                        SELECT CAR
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="second">
+        <div class="container">
+            <div class="car1">
+                <h4>
+                    AC Sedan
+                </h4>
+                <div class="car-body">
+                    <h1>Rs - 12/KM</h1>
+                    <hr>
+                    <img src="https://3.imimg.com/data3/KY/LK/MY-12706303/ac-taxi-services-250x250.jpg" 
+                    alt="Sedan" height="170px" width="100%">
+                    <hr>
+                    <ul style="list-style-type: none; font-weight: 700;" >
+                        <li>RS 12/KM</li>
+                        <li>MAXIMUM 3 PEOPLE CAPACITY</li>
+                        <li>NO OTHER CHARGES</li>
+                    </ul>
+                    <a href="#third">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="car2">
+                <h4>
+                    AC Electric SUV
+                </h4>
+                <div class="car-body">
+                    <h1>Rs - 15/KM</h1>
+                    <hr>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8kusVas4vwzNMcg-Jx02vbckGdWK_M7krdXw1A0pLICLaKmQ76ClpVhGWek0ENAsd6G4&usqp=CAU" 
+                    alt="Electric SUV" height="170px" width="100%">
+                    <hr>
+                    <ul style="list-style-type: none; font-weight: 700;" >
+                        <li>RS 15/KM</li>
+                        <li>MAXIMUM 3 PEOPLE CAPACITY</li>
+                        <li>NO OTHER CHARGES</li>
+                    </ul>
+                    <a href="#third">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="car3">
+                <h4>
+                    ERTIGA SUV
+                </h4>
+                <div class="car-body">
+                    <h1>Rs - 16/KM</h1>
+                    <hr>
+                    <img src="https://betulmedia.com/wp-content/uploads/2022/11/c6es93a_1572125-1024x576.jpg" 
+                    alt="ERTIGA" height="170px" width="100%">
+                    <hr>
+                    <ul style="list-style-type: none; font-weight: 700;" >
+                        <li>RS 16/KM</li>
+                        <li>MAXIMUM 5 PEOPLE CAPACITY</li>
+                        <li>NO OTHER CHARGES</li>
+                    </ul>
+                    <a href="#third">Book Now</a>
+                </div>
+            </div>
+
+
+            <div class="car4">
+                <h4>
+                    Innova Crysta SUV
+                </h4>
+                <div class="car-body">
+                    <h1>Rs - 17/KM</h1>
+                    <hr>
+                    <img src="https://5.imimg.com/data5/YW/FK/SA/SELLER-35805332/innova-crysta-for-outstation-trip-500x500.jpg" 
+                    alt="Innova Crysta" height="170px" width="100%">
+                    <hr>
+                    <ul style="list-style-type: none; font-weight: 700;" >
+                        <li>RS 17/KM</li>
+                        <li>MAXIMUM 6 PEOPLE CAPACITY</li>
+                        <li>NO OTHER CHARGES</li>
+                    </ul>
+                    <a href="#third">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="third">
+            <div class="container">
+                <h4>Fill the details and confirm your booking.</h4>
+                <form id="bform" name="book_form">
+                    <h4>Prsonal Details</h4>
+                    <div class="personal">
+                        <div class="select1">
+                            <select name="gender" id="gender">
+                                <option value>Select</option>
+                                <option value="male">Mr.</option>
+                                <option value="female">Miss.</option>
+                            </select>
+                        </div>
+                        <div class="full_name">
+                            <input type="text" id="full_name" placeholder="Full Name" name="full_name" required>
+                        </div>
+                        <div class="mobile_number">
+                            <div class="num">
+                                Mobile +91
+                            </div>
+                            <input type="text" name="number" id="mobile" maxlength="10" placeholder="10 digit number" required>
+                        </div>
+                    </div>
+
+                    <h4>Booking Details</h4>
+                    <div class="select2">
+                        <select name="car_name" id="car_name">
+                            <option value="select">Select car type</option>
+                            <option value="sedan">Sedan Car</option>
+                            <option value="electric">Electric SUV Car</option>
+                            <option value="ertiga">Ertiga Car</option>
+                            <option value="innova">Innova Car</option>
+                        </select>
+                    </div>
+                    <div class="date_time">
+                        <div class="date">
+                            <input type="date"  name="date" id="date" placeholder="Journey Date" required>
+                        </div>
+                        <div class="distance">
+                            <input type="text" name="distance" id="distance" placeholder="Total Distance in Km" required>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="pickup_point">
+                            <input type="text" name="pickup" id="pickup" placeholder="Enter Pickup Point" required>
+                        </div>
+                        <div class="drop_point">
+                            <input type="text" name="drop" id="drop" placeholder="Enter Drop Point" required>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="cost_book">
+                        <div id="total_cost">
+                            <p class="total_cost"> 
+                                Total Cost Rs : &nbsp; 
+                                 <span class="cost"> 0/-</span>
+                            </p> 
+                        </div>
+                        <div id="confirm">
+                            <button class="confirm">
+                                Confirm
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
