@@ -1,33 +1,4 @@
 
-function bookcar(){
-    document.getElementById('carfrom').style.display = "inline-block";  
-}
-
-var car = document.getElementById('cdata');
-
-car.addEventListener('submit', function(event1){
-    event1.preventDefault()
-
-    var cname = document.getElementById('name').value
-    console.log(cname);
-
-    var from = document.getElementById('from').value
-    console.log(from);
-
-    var to = document.getElementById('to').value
-    console.log(to);
-
-    var distance = document.getElementById('distance').value
-    console.log(distance);
-
-    document.getElementById('carfrom').style.display = "none"; 
-    alert(`Dear ${cname}, You have successfully booked the car to travel from ${from} to ${to}..............Happy Journey`)
-})
-
-    
-
-
-
 
 function bookbus(){
     document.getElementById('busfrom').style.display = "inline-block";  
