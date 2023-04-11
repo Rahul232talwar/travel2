@@ -6,15 +6,20 @@
 
 .headerblock
 {
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(197, 180, 180);
+    /* color: aliceblue; */
     display: flex;
     justify-content: space-between;
 }
 
-.headerblock .para
-{
-    width: 250px;
+.para span{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 115px;
+    font-size: 25px;
+}
+
+.para i{
+    font-size: 25px;
 }
 
 .headerblock .iconheader
@@ -28,7 +33,7 @@
 
 .main-nav
 {
-    background-color: rgba(255, 249, 249, 0.767);
+    background-color: rgb(245, 239, 239);
     height: 65px;
 }
 
@@ -111,32 +116,14 @@
     align-items: center;
 }
 
-.drop
-{
-    height: 60px;
-    width: 200px;
-    background-color: black;
+.contact a{
+    text-decoration: none;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    display: none;
-    position: absolute;
-    padding-left: 6px;
 }
-
-.contact:hover>.drop
-{
-    position: absolute;
-    height: auto;
-    display: block;
-    top: 100px;
-    z-index: 1;
-    color: white;
-    background-color: black;
+.contact:hover a{
+    color: greenyellow;
+    text-decoration: underline; 
 }
-
 
 .explore{
     position: relative;
@@ -168,6 +155,12 @@
     box-shadow: 3px 4px 15px black;
 }
 
+.delhiimg:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transform:scale(1.03);
+}
+
 .new{
     position: absolute;
     top: 65px;
@@ -184,6 +177,13 @@
     box-shadow: 5px 5px 15px black;
     /* background-color: aqua; */
 }
+
+.bangloreimg:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transform:scale(1.03);
+}
+
 
 .bang{
     height: 25px;
@@ -203,6 +203,14 @@
     box-shadow: 5px 5px 15px black;
 }
 
+.mumbaiimg:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transform:scale(1.03);
+}
+
+
+
 .mumbai{
     height: 25px;
     position: relative;
@@ -220,6 +228,13 @@
     left: -135px;
     box-shadow: 5px 5px 15px black;
 }
+
+.chennaiimg:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    transform:scale(1.03);
+}
+
 
 .chennai{
     height: 25px;
@@ -260,9 +275,9 @@
 }
 
 .goa:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-delay: 0s;
-    transform:scale(1.07);
+    transform:scale(1.09);
 }
 
 .goa img{
@@ -278,9 +293,9 @@
 }
 
 .jaipur:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-delay: 0s;
-    transform:scale(1.07);
+    transform:scale(1.09);
 }
 
 .jaipur img{
@@ -295,9 +310,9 @@
 }
 
 .rishikesh:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-delay: 0s;
-    transform:scale(1.07);
+    transform:scale(1.09);
 }
 
 .rishikesh img{
@@ -312,9 +327,9 @@
 }
 
 .ooty:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-delay: 0s;
-    transform:scale(1.07);
+    transform:scale(1.09);
 }
 
 .ooty img{
@@ -330,7 +345,7 @@
 
 
 
-.services{
+#services{
     position: relative;
     background-color: rgb(197, 180, 180);
     color: antiquewhite;
@@ -362,9 +377,9 @@
 }
 
 .car:hover, .bus:hover, .plane:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-delay: 0s;
-    transform:scale(1.05);
+    transform:scale(1.09);
 }
 
 .car>h1, .bus>h1, .plane>h1{
@@ -378,16 +393,24 @@
     padding-left: 35px;
 }
 
-.car>button, .bus>button, .plane>button{
-    margin-left: 100px; 
+.cardblock button{
+    position: relative;
+    left: 90px;
     height: 40px;
     width: 100px; 
-    color: rgb(233, 149, 32);
+    color: rgb(155, 66, 66);
     background-color: rgb(219, 203, 109);
     border: none;
     box-shadow: 6px 6px 8px rgb(236, 225, 163);
     border-radius: 5px;
 }
+
+
+
+button:hover{
+    background-color: white;
+}
+
 
 #carfrom{
     background: rgba(0,0,0,0.6);
