@@ -12,7 +12,7 @@
 <body>
     <header class="headerblock">
         <p class="para">
-            <i>TRAVEL</i>
+            <span>TRAVEL</span>
             <i class="fa-solid fa-plane-departure"></i>
         </p>
         <div class="iconheader">
@@ -28,7 +28,7 @@
         <section class="sub-nav">
             <div class="logo">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSh2iK5aQ_tof2JSTPZ4HY-eoJjEUPFI_kA&usqp=CAU" 
-                alt="">
+                alt="log1">
             </div>
             <div class="navigator">
                 <a href="./index.html">
@@ -37,30 +37,23 @@
                 <a href="./packages.html">
                     PACKAGES
                 </a>
-                <a href="#">
+                <a href="#services">
                     SERVICES
                 </a>
-                <a onclick="feedback()" href="#" >
+                <a href="#" onclick="feedback()">
                     FEEDBACK
                 </a>
             </div>
             <div class="sign">
-                <a href="">
+                <a href="#">
                     SIGN UP
                 </a>
             </div>
             <div class="contact">
-                CONTACT
-                <section class="drop">
-                    <p>
-                        +91 1234567890 <br>
-                        +91 6234456567
-                    </p>
-                </section>
+                <a href="#footer">
+                    CONTACT
+                </a>
             </div>
-            <section class="drop">
-                <p>+91 1234567890 <br>+91 6234456567</p>
-            </section>
         </section>
     </nav>
 
@@ -68,11 +61,11 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://cdn1.vectorstock.com/i/1000x1000/65/00/travel-in-india-concept-indian-most-famous-sights-vector-24746500.jpg"
+            <img src="https://karnatakatourism.org/wp-content/uploads/2020/05/Hampi.jpg"
             class="d-block w-100" alt="..." height="500px">
           </div>
           <div class="carousel-item">
-            <img src="https://www.treebo.com/blog/wp-content/uploads/2018/08/Indian-Excursionist.jpg"
+            <img src="https://images.indianexpress.com/2021/10/GettyImages-travelling-Delhi-1200.jpg"
             class="d-block w-100" alt="..." height="500px">
           </div>
           <div class="carousel-item">
@@ -80,7 +73,7 @@
             class="d-block w-100" alt="..." height="500px">
           </div>
           <div class="carousel-item">
-            <img src="https://images.indianexpress.com/2021/10/GettyImages-travelling-Delhi-1200.jpg" 
+            <img src="https://www.holidify.com/images/bgImages/HAMPI.jpg" 
             class="d-block w-100" alt="..." height="500px">
           </div>
         </div>
@@ -99,7 +92,7 @@
         <h3>Explore India</h3>
         <span>These popular destinations have a lot to offer</span>
         <div class="explore1">
-            <a href="New_Delhi">
+            <a href="New_Delhi" class="delhi">
                 <div class="delhiimg">
                     <picture>
                         <img src="https://cf.bstatic.com/xdata/images/city/600x600/684765.jpg?k=3f7d20034c13ac7686520ac1ccf1621337a1e59860abfd9cbd96f8d66b4fc138&o=" 
@@ -161,55 +154,33 @@
     </div>
 
     <!-- cards -->
-    <h1 class="services">OUR SERVICES</h1>
+    <h1 id="services">OUR SERVICES</h1>
     <section class="cardblock"> 
         <div class="car">
             <img src="https://cdn1.vectorstock.com/i/1000x1000/95/50/india-tourist-attraction-travel-postcard-vector-25009550.jpg" 
-            alt="" height="200px" width="300px">
+            alt="car" height="200px" width="300px">
             <h1>CAR TRANSPORT</h1>
             <p>@30% offer</p>
-            <button id="bookcar" onclick="bookcar()">BOOK NOW</button>
+            <a href="./car.html" >
+                <button  id="bookcar">BOOK NOW</button>
+            </a>
         </div>
         <div class="bus">
             <img src="https://static6.depositphotos.com/1010070/557/v/950/depositphotos_5575203-stock-illustration-indian-bus-travel.jpg" 
-            alt="" height="200px" width="300px">
+            alt="bus" height="200px" width="300px">
             <h1>BUS TRANSPORT</h1>
             <p>@50% offer</p>
             <button id="bookbus" onclick="bookbus()">BOOK NOW</button>
         </div>
         <div class="plane">
             <img src="https://cdn5.vectorstock.com/i/1000x1000/22/89/travel-to-india-airplane-with-attractions-vector-19052289.jpg" 
-            alt="" height="200px" width="300px">
+            alt="plane" height="200px" width="300px">
             <h1>AIRPLANE TRANSPORT</h1>
             <p>@60% offer</p>
             <button id="bookplane" onclick="bookairplane()">BOOK NOW</button>
         </div>
     </section>
    
-
-    <div id="carfrom">
-        <div class="c-data">
-            <img src="./travo/img/logo1.png" alt="travo" height="70px">
-            <h4>Book Your Car</h4>
-            <div class="cform">
-                <form id="cdata">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required><br><br>
-
-                    <label for="from" style="margin-left: -35px;">Travel from</label>
-                    <input type="text" id="from" name="travel-from" required><br><br>
-
-                    <label for="to" style="margin-left: -20px;">Travel To</label>
-                    <input type="text" id="to" name="travel-to" required><br><br>
-
-                    <label for="distance" style="margin-left: -20px;">Distance</label>
-                    <input type="text" id="distance" name="distance" required>(in Kms)<br><br>
-
-                    <input type="submit" style="margin-left: 80px;">
-                </form>
-            </div>
-        </div>
-    </div>
 
     <div id="busfrom">
         <div class="b-data">
@@ -289,7 +260,7 @@
     
 
 
-    <footer style="background-color: rgba(173, 155, 156, 0.925);">
+    <footer style="background-color: rgba(173, 155, 156, 0.925);" id="footer">
         <div class="container" >
             <div>
                 <div class="row1">
